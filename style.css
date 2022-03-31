@@ -1,0 +1,110 @@
+@media screen and (max-width: 500px) {
+    main{
+        padding-top: 30px;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    img{
+        width: 85%;
+        width: 85%;
+    }
+}
+
+@keyframes changeColorRw{
+    from {
+      background-color: red;
+      color: white;
+    }
+    to {
+      background-color: white;
+      color: red;
+    }
+  }
+  
+@keyframes changeColorYb{
+    from {
+      background-color: yellow;
+      color: black;
+    }
+    to {
+      background-color: black;
+      color: yellow;
+    }
+  }
+
+@keyframes changeColorGw{
+    from {
+      background-color: green;
+      color: white;
+    }
+    to {
+      background-color: white;
+      color: green;
+    }
+  }
+
+  @keyframes changeColorAb{
+    from {
+      background-color: antiquewhite;
+      color: black;
+    }
+    to {
+      background-color: black;
+      color: antiquewhite;
+    }
+  }
+
+main{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main img{
+    margin-bottom: 20px;
+}
+button {
+    width: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#red{
+background-color: red;
+color: white;
+}
+
+#red:hover{
+    animation: changeColorRw 300ms ease both;
+}
+
+#yellow{
+    background-color: yellow;
+    color: black;
+}
+
+#yellow:hover{
+    animation: changeColorYb 300ms ease both;
+}
+
+#green{
+    background-color: green;
+    color: white;
+}
+
+#green:hover{
+    animation: changeColorGw 300ms ease both;
+}
+
+#automatic{
+    background-color: antiquewhite;
+    color: black;
+}
+
+#automatic:hover{
+    animation: changeColorAb 300ms ease both;
+}
